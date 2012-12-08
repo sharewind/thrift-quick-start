@@ -6,6 +6,13 @@
 	<artifactId>thrift-quick-start</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<properties>
+		<compile.target>1.6</compile.target>
+		<compile.source>1.6</compile.source>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<compile.encoding>UTF-8</compile.encoding>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.thrift</groupId>
