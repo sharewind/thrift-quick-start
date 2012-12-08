@@ -11,6 +11,11 @@ import org.apache.thrift.transport.TTransport;
 import com.cjf.practice.UserProfile;
 import com.cjf.practice.UserStorage;
 
+/**
+ * 适配服务端 FramedUserStorageServer 或 NonblockingUserStorageServer
+ * @author Caijanfeng
+ *
+ */
 public class SyncUserStorageClientForFramedServer {
 
 	public static void main(String[] args) throws TException, IOException {

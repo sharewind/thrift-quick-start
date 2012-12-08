@@ -12,6 +12,12 @@ import org.apache.thrift.transport.TTransportException;
 import com.cjf.practice.UserStorage;
 import com.cjf.practice.service.UserStorageServiceImpl;
 
+/**
+ * 异步调用客户端: AsyncUserStorageClient
+ * 同步调用客户端： SyncUserStorageClientForFramedServer
+ * @author Caijanfeng
+ *
+ */
 public class FramedUserStorageServer {
 
 	public static void main(String[] args) throws TTransportException {

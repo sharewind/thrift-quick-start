@@ -16,6 +16,11 @@ import com.cjf.practice.UserStorage;
 import com.cjf.practice.UserStorage.AsyncClient.retrieve_call;
 import com.cjf.practice.UserStorage.AsyncClient.store_call;
 
+/**
+ * 适配服务端 FramedUserStorageServer 或 NonblockingUserStorageServer
+ * @author Caijanfeng
+ *
+ */
 public class AsyncUserStorageClient {
 
 

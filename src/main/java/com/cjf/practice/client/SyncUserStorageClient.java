@@ -10,6 +10,11 @@ import org.apache.thrift.transport.TTransport;
 import com.cjf.practice.UserProfile;
 import com.cjf.practice.UserStorage;
 
+/**
+ * 适配服务端 BlockingUserStorageServer
+ * @author Caijanfeng
+ *
+ */
 public class SyncUserStorageClient {
 
 	public static void main(String[] args) throws TException, IOException {
